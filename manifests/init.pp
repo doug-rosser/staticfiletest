@@ -350,3 +350,4 @@ class staticfiletest {
     file { "/home/${user}/file100":
       source => "puppet:///modules/staticfiletest/file100"
     }
+}
